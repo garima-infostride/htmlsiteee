@@ -1,0 +1,52 @@
+/*
+Theme Name: htmlsite
+Theme URI: https://wordpress.org/themes/htmlsite/
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+Author: Garima Chauhan
+Author URI: https://www.instagram.com/garima__9297/
+Version: 1
+
+*/
+
+#main{
+    margin-top: 50px;
+    
+   
+}
+
+.woocommerce-product-details__short-description{ 
+    margin-top:50px ;
+    
+}
+h3{
+    color: #5f666c;
+    font-size: 24px;
+    font-family: 'AvenirNextCyr-MediumItalic';
+    line-height: 1.5;
+    margin-bottom: 15px;
+
+}
+p{
+    font-family: 'AvenirNextCyr-Medium';
+    color: #5f666c;
+    font-size: 18px;
+}
+.product_title {
+    font-family: 'AvenirNextCyr-Demi';
+    color: #fff;
+    font-size: 40px;
+    margin-top: -10px;
+    margin-right:-20px;
+}
+.variations{
+    margin-top: 40px;
+}
+.label{
+    color: #fff;
+    font-family: 'AvenirNextCyr-Medium';
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.xt_woovs-attribute-value{
+    display: none;
+}
