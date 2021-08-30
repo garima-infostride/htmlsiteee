@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Theme Name: htmlsite
 Theme URI: https://wordpress.org/themes/htmlsite/
@@ -11,6 +12,11 @@ Version: 1
 body{
     background-color: #000000;
     font-family: 'AvenirNextCyr-Regular';
+=======
+body{
+	background-color: #000000;
+	font-family: 'AvenirNextCyr-Regular';
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
 }
 @font-face {
   font-family: 'AvenirNextCyr-Regular';
@@ -34,6 +40,7 @@ body{
     src: url('../fonts/AvenirNextCyr-MediumItalic.ttf')  format('truetype'); 
   }
 .container{
+<<<<<<< HEAD
     position: relative;
 }
 .mt-100{
@@ -47,6 +54,21 @@ body{
 }
 .navbar{ 
     padding-top: 20px;
+=======
+	position: relative;
+}
+.mt-100{
+	margin-top: 100px;
+}
+.mt-70{
+	margin-top: 70px;
+}
+.mt-50{
+	margin-top: 50px;
+}
+.navbar{ 
+	padding-top: 20px;
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
 }
 .bg-dark {
     background-color: #000!important;
@@ -66,6 +88,7 @@ body{
     
 }
 .navbar-dark .navbar-nav .nav-link:after{
+<<<<<<< HEAD
     content: '';
     height: 10px;
     width: 10px;
@@ -77,6 +100,19 @@ body{
 } 
 .navbar-dark .navbar-nav .nav-link.active:after{
     background-color: #e02e23;
+=======
+	content: '';
+	height: 10px;
+	width: 10px;
+	background-color: #000;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -5px;
+	left: calc(50% - 5px);
+} 
+.navbar-dark .navbar-nav .nav-link.active:after{
+	background-color: #e02e23;
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
 }
 
 /*cart page csss*/
@@ -85,7 +121,11 @@ body{
     background: #5e6064;
 }
 .pageTitle h2{
+<<<<<<< HEAD
     margin: 0;
+=======
+	margin: 0;
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
     color: #fff;
     font-family: 'AvenirNextCyr-Medium';
     font-size: 24px;
@@ -93,8 +133,13 @@ body{
     padding-bottom: 8px;
 }
 .productListing ul{ 
+<<<<<<< HEAD
     margin: 0; 
     padding: 0;
+=======
+	margin: 0; 
+	padding: 0;
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
 }
 .productListing ul li {
     border-bottom: 1px solid #5f666c;
@@ -145,24 +190,41 @@ body{
     margin: 0 10px 0 0;
 }
 .btnRemove .btn-secondary{
+<<<<<<< HEAD
     width: 150px;   
 }
 .btn-secondary{
     background-color: #5e6064;
+=======
+	width: 150px;   
+}
+.btn-secondary{
+	background-color: #5e6064;
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
     border-color: #5e6064;
     padding: 10px 16px;
     font-size: 18px;
 }
 .btn-danger{
+<<<<<<< HEAD
     background-color: red;
+=======
+	background-color: #e02e23;
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
     border-color: #e02e23;
     padding: 10px 16px;
     font-size: 18px;
 }
 .btn-light{
+<<<<<<< HEAD
     background-color: #fff;
     border-color: #fff;
     padding: 10px 16px; 
+=======
+	background-color: #fff;
+    border-color: #fff;
+    padding: 10px 16px;	
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
     font-size: 18px;
 }
 
@@ -185,8 +247,13 @@ body{
     font-size: 18px;
 }
 .coupenCode .form-control::placeholder{
+<<<<<<< HEAD
     color: #fff;
     font-size: 18px;
+=======
+	color: #fff;
+	font-size: 18px;
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
 }
 .coupenCode .btn-danger {
     width: 150px;
@@ -196,8 +263,13 @@ body{
     width: 100%;
 }
 .separatorText{
+<<<<<<< HEAD
     color: #fff;
     font-size: 18px;
+=======
+	color: #fff;
+	font-size: 18px;
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
 }
 .priceSummery ul {
     margin: 0;
@@ -228,7 +300,11 @@ body{
 
 /*thanks page csss*/
 .thanksBlock{
+<<<<<<< HEAD
     background-image: url(../images/back1.png);
+=======
+	background-image: url(../images/back1.png);
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
     background-repeat: no-repeat;
     height: 100vh;
     background-size: 70%;
@@ -240,9 +316,15 @@ body{
     font-size: 100px;
 }
 .thanksBlock p{
+<<<<<<< HEAD
     color: #fff;
      font-size: 22px;
      margin-top: 250px;
+=======
+	color: #fff;
+	 font-size: 22px;
+	 margin-top: 250px;
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
      padding-bottom: 30px;
 }
 
@@ -299,6 +381,7 @@ body{
     margin-top: -10px;
 }
 .ratingBox{
+<<<<<<< HEAD
     border-bottom: 1px solid #fff;
     color:#0281bf !important;
     font-size: 25px;
@@ -314,6 +397,17 @@ body{
 .rateQntyBox {
     color: #5f666c;
     font-size: 26px;
+=======
+    border-bottom: 1px solid #5f666c;
+}
+.starBox i{
+    color: #0281bf;
+    font-size: 20px;
+}
+.rateQntyBox {
+    color: #5f666c;
+    font-size: 18px;
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
     margin-left: 10px;
     font-family: 'AvenirNextCyr-Medium';
 }
@@ -336,7 +430,10 @@ body{
     margin-bottom: 20px;
 }
 .filterBoxWrap{
+<<<<<<< HEAD
     margin-top: -40px;
+=======
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
     display: flex;
 }
 .filterItem p {
@@ -386,10 +483,17 @@ body{
     font-size: 35px;
     font-family: 'AvenirNextCyr-Medium';
 }
+<<<<<<< HEAD
 .checkoutBox {
     border-top: 1px solid #5f666c;
 }
 .checkoutBox .btn {
+=======
+.productdetail .checkoutBox {
+    border-top: 1px solid #5f666c;
+}
+.productdetail .checkoutBox .btn {
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
     max-width: 250px;
 }
 

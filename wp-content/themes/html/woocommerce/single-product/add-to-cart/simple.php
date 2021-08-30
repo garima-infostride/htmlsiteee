@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
  
+=======
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
 <?php
 /**
  * Simple product add to cart

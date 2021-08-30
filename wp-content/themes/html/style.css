@@ -38,14 +38,22 @@ p{
     margin-top: -10px;
     margin-right:-20px;
 }
+<<<<<<< HEAD
 /*.variations{
     margin-top: 40px;
 }*/
 /*.label{
+=======
+.variations{
+    margin-top: 40px;
+}
+.label{
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
     color: #fff;
     font-family: 'AvenirNextCyr-Medium';
     font-size: 22px;
     margin-bottom: 20px;
+<<<<<<< HEAD
 }*/
 /*.xt_woovs-attribute-value{
     display: none;
@@ -53,3 +61,9 @@ p{
 
 */
 
+=======
+}
+.xt_woovs-attribute-value{
+    display: none;
+}
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8

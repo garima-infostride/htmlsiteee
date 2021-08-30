@@ -23,7 +23,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>">
 
+<<<<<<< HEAD
 	<div id="comment-<?php comment_ID(); ?>" class="starBox comment_container">
+=======
+	<div id="comment-<?php comment_ID(); ?>" class="comment_container">
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
 
 		<?php
 		/**

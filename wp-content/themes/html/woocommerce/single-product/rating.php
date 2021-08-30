@@ -31,11 +31,19 @@ $average      = $product->get_average_rating();
 
 if ( $rating_count > 0 ) : ?>
 
+<<<<<<< HEAD
 	<div class="woocommerce-product-rating ratingBox mt-5 pb-5 mb-3">
 		<?php echo wc_get_rating_html( $average, $rating_count ); // WPCS: XSS ok. ?>
 		<?php if ( comments_open() ) : ?>
 			<?php //phpcs:disable ?>
 			<p href="#reviews" class=" rateQntyBox woocommerce-review-link" rel="nofollow"><?php printf( _n( '%s  Ratings', '%s reviews', $review_count, 'woocommerce' ), '<span class="count">' . esc_html( $review_count ) . '</span>' ); ?></p>
+=======
+	<div class="woocommerce-product-rating">
+		<?php echo wc_get_rating_html( $average, $rating_count ); // WPCS: XSS ok. ?>
+		<?php if ( comments_open() ) : ?>
+			<?php //phpcs:disable ?>
+			<a href="#reviews" class="woocommerce-review-link" rel="nofollow">(<?php printf( _n( '%s customer review', '%s customer reviews', $review_count, 'woocommerce' ), '<span class="count">' . esc_html( $review_count ) . '</span>' ); ?>)</a>
+>>>>>>> e62c4841ab368ee8375e482c6afeecf106def8b8
 			<?php // phpcs:enable ?>
 		<?php endif ?>
 	</div>
